@@ -17,37 +17,3 @@ headers = yandex_direct_api.get_headers(token, clientLogin)
 body = yandex_direct_api.get_body(date1, date2, goalID)
 df = yandex_direct_api.get_report(headers, body)
 print(df.to_string())
-
-
-
-
-API_URL = 'https://api.direct.yandex.com/json/v5'
-
-services_list = ['reports','campaigns']
-
-
-{"FieldNames": [
-                "Month",
-                "CampaignName",
-                "CampaignId",
-                "CampaignType",
-                "AdGroupName",
-                "AdGroupId",
-                "AdFormat",
-                "AdId",
-                "CriterionId",
-                "Criterion",
-                "CriterionType",
-                "Age",
-                "Gender",
-                "AdNetworkType",
-                "Device",
-                "MobilePlatform",
-                "LocationOfPresenceId",
-                "RlAdjustmentId",
-                "Placement",
-                "Slot",
-                "Impressions",
-                "Clicks",
-                "Cost"
-            ]}
