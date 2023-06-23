@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ynd-api-test"
+version = "0.1.0"
+description = ""
+authors = ["Nick <nicklisits@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ynd_api_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+python-dateutil = "^2.8.2"
+yadirstat = "^1.0.8"
+pandas = "^2.0.2"
+jupyter = "^1.0.0"
+faker = "^18.11.1"
+dotenv = "^0.0.5"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
