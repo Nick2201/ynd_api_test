@@ -1,6 +1,7 @@
 # Проект: Извлечение данных из Yandex Metrika с использованием Python
 
-![Yandex Metrika Logo](https://link_to_your_image.png/)
+![Yandex Metrika Logo](https://github.com/Nick2201/ynd_api_test/assets/71185932/a73da2c9-8251-44bf-b330-f57790823429)
+
 
 Добро пожаловать в проект, посвященный извлечению данных из Yandex Metrika с использованием Python! Здесь мы сосредотачиваемся на умениях и навыках Data Analyst, предоставляя гибкий и детальный подход к получению данных из Yandex.Metrika.
 
